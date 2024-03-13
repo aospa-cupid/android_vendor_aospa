@@ -262,7 +262,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Signing
-ifeq (user,$(TARGET_BUILD_VARIANT))
+ifeq (eng,$(TARGET_BUILD_VARIANT))
 ifneq (,$(wildcard .android-certs/releasekey.pk8))
 PRODUCT_DEFAULT_DEV_CERTIFICATE := .android-certs/releasekey
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.oem_unlock_supported=1
