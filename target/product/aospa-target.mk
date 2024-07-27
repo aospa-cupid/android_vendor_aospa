@@ -61,7 +61,6 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    ParanoidSystemUI
     ParanoidSystemUI \
     Settings
 
